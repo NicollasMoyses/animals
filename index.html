@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercicio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Titulo</h1>
+    </header>
+    <section>
+        <div>
+            <p>Qual o seu animal?</p>
+            <input type="radio" name="txtanm" id="gato">
+            <label for="txtanm">Gato</label>
+            <input type="radio" name="txtanm" id="cachorro">
+            <label for="txtanm"> Cachorro</label>
+        </div>
+        <div>
+            <p>Ele é feio ou bonito?</p>
+            <input type="radio" name="txtan" id="feio">
+            <label for="txtan">Feio</label>
+            <input type="radio" name="txtan" id="bonito">
+            <label for="txtan">Bonito</label>
+        </div>
+        <div id="res">
+            <p></p>
+            <input type="button" value="Verificar" onclick="verificar()">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Nicollas</p>
+    </footer>
+    <script src="script.js"> </script>
+</body>
+
+</html>
